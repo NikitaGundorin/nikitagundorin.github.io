@@ -28,16 +28,16 @@ header{
     width: 34px;
     margin: 7px 131px 0px 0px;
     border-radius: 14px;
-    float: left;
+    display: inline-block;  
 }
 
 .search {
     background: #305075;
-    height: 28px;
+    min-height: 28px;
     width: 230px;
-    margin: 7px 0;
+    margin: 7px 0px 0px 0px;
     border-radius: 14px;
-        float: left;
+    display: inline-block;
 }
 
 .notifications {
@@ -45,8 +45,8 @@ header{
     height: 28px;
     width: 28px;
     margin: 7px 0px 0px 20px;
-    border-radius: 14px;
-    float: left;
+    border-radius: 14px;   
+    display: inline-block;
 }
 
 .music {
@@ -54,8 +54,8 @@ header{
     height: 28px;
     width: 28px;
     margin: 7px 0px 0px 10px;
-    border-radius: 14px;
-        float: left;
+    border-radius: 14px;     
+    display: inline-block;
 }
 
 .top_profile {
@@ -63,14 +63,14 @@ header{
     height: 28px;
     width: 114px;
     margin: 7px 0px 0px 0px;
-    border-radius: 14px;
+    border-radius: 14px;    
     float: right;
 }
 
 .slide_bar {
     width: 149px;
     height: auto;
-    padding: 15px 0 10px;
+    padding: 15px 0px 10px 0px;
     color: #2a5572;
     float: left;
     text-align: left;
@@ -84,14 +84,15 @@ header{
 
 .narrow_column {
     float: left;
-    width: 230px;
-    height: auto;
+    max-width: 230px;
+    min-height: auto;
+    margin: 42px 0px 0px 0px;
     margin-top: 42px;
 }
 
 .avarar {
-    width: 230px;
-    height: 320px;
+    max-width: 230px;
+    min-height: 320px;
     background: #ffffff;
     margin: 15px 0px 0px 0px;
 }
