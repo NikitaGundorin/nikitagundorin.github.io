@@ -261,14 +261,9 @@ header{
 @media screen and (min-width:480px) and (max-width:800px) {
   /* Target landscape smartphones, portrait tablets, narrow desktops
   */
-    .logo{
-        background: #000;
-    }
+
 }
 
 @media screen and (max-width:479px) {
   /* Target portrait smartphones */
-        .logo{
-        background: #200fff;
-    }
 }
