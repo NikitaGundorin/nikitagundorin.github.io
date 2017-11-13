@@ -33,7 +33,7 @@ header{
 
 .search {
     background: #305075;
-    min-height: 28px;
+    height: 28px;
     width: 230px;
     margin: 7px 0px 0px 0px;
     border-radius: 14px;
@@ -84,15 +84,15 @@ header{
 
 .narrow_column {
     float: left;
-    max-width: 230px;
-    min-height: auto;
+    width: 230px;
+    height: auto;
     margin: 42px 0px 0px 0px;
     margin-top: 42px;
 }
 
 .avatar {
-    max-width: 230px;
-    min-height: 320px;
+    width: 230px;
+    height: 320px;
     background: #ffffff;
     margin: 15px 0px 0px 0px;
 }
@@ -258,12 +258,5 @@ header{
     margin-top: 15px;
 }
 
-@media screen and (min-width:480px) and (max-width:800px) {
-  /* Target landscape smartphones, portrait tablets, narrow desktops
-  */
-
-}
-
-@media screen and (max-width:479px) {
-  /* Target portrait smartphones */
+.p_p {
 }
