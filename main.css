@@ -17,6 +17,16 @@ header{
 	color: #fff;
 }
 
+a {
+    color: #ad7835;
+    text-decoration: none;
+}
+
+a:focus,a:hover {
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
 .menu{
 	
 }
