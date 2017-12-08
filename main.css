@@ -34,9 +34,9 @@ header{
 
 
 .frame{
-	margin-top: 250px;
+	margin-top: 240px;
 	border: 8px solid #ad7835;
-	padding: 20px;
+	padding: 50px;
 	width: 50%;
 }
 
@@ -97,7 +97,7 @@ p{
 }
 
 .a1{
-	padding-top: 60px;
+	padding-top: 50px;
 }
 
 .main{
@@ -129,6 +129,7 @@ p{
 	outline: none;
 }
 
+
 .btn-cust{
 	background-color: #ad7835;
 	border: none;
@@ -145,4 +146,102 @@ p{
 	margin: 0, auto;
 	text-align: center;
 	font-size: 50px;
+}
+
+
+.btn-cust2{
+	background-color: #ad7835;
+	border: none;
+	padding: 10px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1318px) {
+
+	h1{
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+
+	.frame{
+		width: 65%;
+		margin-top: 220px;
+	}
+
+	h6{
+		font-size: 13px;
+	}
+	.menu_item{
+	padding: 10px;
+	font-size: 20px;
+	font-weight: 100;
+	color: #ad7835;
+	}
+
+	.menu_itema{
+	font-size: 30px;
+	}
+
+	.about{
+		padding-top: 0px;
+	}
+	.main{
+		margin-bottom: 135px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	.footer{
+		font-size: 30px;
+	}
+	.frame{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+
+@media screen and (max-width: 547px) {
+
+	.menu_item{
+	font-size: 14px;
+	}
+	.main{
+		margin-bottom: 170px;
+	}
+	.frame{
+		margin-top: 195px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.a1{
+	padding-top: 20px;
+	}
+	.aboutimg{
+		width: 350px;
+		height: 466px;
+	}
+	p{
+		padding-left: 10px;
+		margin-left: 0px;
+	}
+
+	.form{
+		padding-top: 20px;
+	}
+	.form_input{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.btn-cust{
+		margin-top: 10px;
+		width: 100%
+		margin-left: 0px;
+	}
+	.contact{
+		padding-bottom: 50px;
+	}
 }
