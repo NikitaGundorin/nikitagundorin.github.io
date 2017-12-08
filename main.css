@@ -106,4 +106,43 @@ p{
 
 .gallery{
 	padding-top:10px;
+	margin-bottom: 50px;
+}
+
+.contact{
+	padding-top: 10px;
+	padding-bottom: 80px;
+}
+
+.form{
+	padding-top: 50px;
+	text-align: center;
+}
+
+.form_input{
+	background-color: #2d2420;
+	border: none;
+	padding: 10px;
+	color: #fff;
+	margin-left: 10px;
+	width: 20%;
+	outline: none;
+}
+
+.btn-cust{
+	background-color: #ad7835;
+	border: none;
+	padding: 10px;
+	font-weight: 700;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.footer{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: black;
+	margin: 0, auto;
+	text-align: center;
+	font-size: 50px;
 }
