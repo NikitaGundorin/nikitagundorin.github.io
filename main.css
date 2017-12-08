@@ -1,8 +1,8 @@
 
 body{
 	font-family: 'Raleway', sans-serif;
-	background: url(img/bg.png) no-repeat top center;
-	background-size: 100%; /* Современные браузеры */
+	background: url(img/bg.jpg) no-repeat top center;
+	background-size: 100%;
 }
 
 ul, li{
